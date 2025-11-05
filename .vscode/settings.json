@@ -1,0 +1,9 @@
+{
+    "cmake.sourceDirectory": "D:/Users/skheradiya/Documents/Repo_SK/OPE3rdParty",
+    "cmake.buildDirectory": "D:/Users/skheradiya/Documents/Repo_SK/OPE3rdParty/Build",
+    "cmake.installPrefix": "D:/Users/skheradiya/Documents/Repo_SK/OPE3rdParty/Install",
+    "cmake.configureArgs": [
+      "-DOCC3RDPARTY_DIR=D:/Users/skheradiya/Documents/Repo_SK/OpenCascade/3rdParty",
+      "-DUSE_OCCT=ON"
+    ]
+}
