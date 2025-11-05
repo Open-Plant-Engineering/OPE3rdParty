@@ -1,6 +1,6 @@
 include(ExternalProject)
 
-set(OCC_INSTALL_DIR ${CMAKE_CURRENT_SOURCE_DIR}/Install CACHE PATH "OpenCASCADE install directory")
+set(OCC_INSTALL_DIR ${CMAKE_CURRENT_SOURCE_DIR} CACHE PATH "OpenCASCADE install directory")
 
 ExternalProject_Add(OpenCASCADE
     GIT_REPOSITORY https://git.dev.opencascade.org/repos/occt.git
